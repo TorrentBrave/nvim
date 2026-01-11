@@ -22,6 +22,9 @@ return {
   },
 }
 
+-- uv add pynvim ipykernel jupyter_client jupytext
+-- <leader> + vs
+
 --
 -- Execute code:
 --

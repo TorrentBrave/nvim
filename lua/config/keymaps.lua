@@ -37,5 +37,8 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 keymap.set("n", "<leader>sv", "<C-w>v") -- 水平新增窗口 split vertical
 keymap.set("n", "<leader>sh", "<C-w>s") -- 垂直新增窗口 split horizontal
 
+-- visual 模式选中 代码块后 按住 ctrl 再 jk 把它直接上下移动
+-- ctrl 能从 目录区域放到 代码区域, shift 切换当前的代码区域里的这些标签页, <leader> b d 关闭当前缓冲区(就是当前在看的标签页) buffer delete
+
 -- ----------------------------- Python ------------------------------ --
 -- -- molten
